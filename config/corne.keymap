@@ -51,9 +51,9 @@
         raise_layer {
             display-name = "Raise";
             bindings = <
-&kp GRAVE  &kp NUMBER_1     &kp NUMBER_2      &kp NUMBER_3    &kp NUMBER_4          &kp N5               &kp NUMBER_6  &kp N7                 &kp N8           &kp N9             &kp N0         &kp MINUS
+&kp CARET  &kp NUMBER_1     &kp NUMBER_2      &kp NUMBER_3    &kp NUMBER_4          &kp N5               &kp NUMBER_6  &kp N7                 &kp N8           &kp N9             &kp N0         &kp MINUS
 &kp TILDE  &kp PLUS         &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp AMPERSAND        &kp EQUAL     &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp ASTERISK   &kp UNDERSCORE
-&kp LSHFT  &kp EXCLAMATION  &kp CARET         &kp AT_SIGN     &kp HASH              &kp DOUBLE_QUOTES    &kp SQT       &kp PERCENT            &kp DOLLAR       &kp PIPE           &kp BACKSLASH  &kp RIGHT_SHIFT
+&kp LSHFT  &kp EXCLAMATION  &kp HASH          &kp AT_SIGN     &kp GRAVE             &kp DOUBLE_QUOTES    &kp SQT       &kp PERCENT            &kp DOLLAR       &kp PIPE           &kp BACKSLASH  &kp RIGHT_SHIFT
                                               &trans          &trans                &kp ENTER            &kp SPACE     &kp DELETE             &trans
             >;
         };
